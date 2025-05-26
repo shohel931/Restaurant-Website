@@ -17,15 +17,12 @@
             </div>
             <div class="col-sm-6">
                 <div class="menu_area">
-                <?php wp_nav_menu( array('theme_location' => 'main_manu', 'manu_id' => 'nav') ); ?>
+                <?php wp_nav_menu( array('theme_location' => 'primary', 'manu_id' => 'nav') ); ?>
             </div>
             </div>
             <div class="col-sm-3">
                 <div class="login">
-                    <ul id="login_menu">
-                        <li><a href="#">Login</a></li>
-                        <li><a href="#">Register</a></li>
-                    </ul>
+                    <?php wp_nav_menu( array('theme_location' => 'footer', 'manu_id' => 'login_menu') ); ?>
                 </div>
             </div>
         </div>
