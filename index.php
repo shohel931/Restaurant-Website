@@ -21,11 +21,11 @@
             </div>
             </div>
             <div class="col-sm-3">
-                <div class="search">
-                    <form action="<?php echo home_url(); ?>" method="get">
-                        <input type="text" name="s" placeholder="Search...">
-                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                    </form>
+                <div class="login">
+                    <ul id="login_menu">
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Register</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
