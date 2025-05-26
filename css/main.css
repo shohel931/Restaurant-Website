@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0B1214;
+}
+
+
+/* Header Area */
+#header_area{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #ddd;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+/* Header Area - Logo */
+#header_area .col-sm-3 .logo a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+#header_area .col-sm-3 .logo img{
+    width: 40%;
+    height: auto;
+}
+
+/* Header Area - Menu */
+.menu_area{
+    margin: 12px 0;
+}
+.menu_area ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.menu_area ul li{
+    margin:0 20px;
+}
+.menu_area ul li a{
+    text-decoration: none;
+    padding:10px 20px;
+    /* background-color: blue; */
+    color: #000;
+    font-weight: bold;
+}
+.menu_area ul li a:hover{
+    color: blue;
+}
+/* Dropdown Menu */
+.menu_area ul li ul{
+    display: none;
+    position: absolute;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 10px;
+    z-index: 1000;
+}
+.menu_area ul li:hover ul{
+    display: block;
+}
+.menu_area ul li ul li{
+    margin: 0;
+}
+.menu_area ul li ul li a{
+    color: #000;
+    padding: 5px 10px;
+    display: block;
+}
+.menu_area ul li ul li a:hover{
+    background: #007BFF;
+    color: #fff;
+}
