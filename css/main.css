@@ -74,3 +74,24 @@ body{
     background: #007BFF;
     color: #fff;
 }
+
+.login{
+    margin: 12px 0;
+}
+.login ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.login ul li{
+    margin:0 10px;
+}
+.login ul li a{
+    text-decoration: none;
+    padding:10px 20px;
+    color: #000;
+    font-weight: bold;
+}
+.login ul li a:hover{
+    color: blue;
+}
