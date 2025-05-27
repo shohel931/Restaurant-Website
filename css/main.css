@@ -9,10 +9,12 @@ body{
 #header_area{
     margin: 0;
     padding: 0;
-    width: 100%;
-    background: #ddd;
     align-items: center;
-    justify-content: center;
+}
+.top_header{
+    background: #fff;
+    padding: 10px 0;
+    align-items: center;
     display: flex;
 }
 /* Header Area - Logo */
@@ -26,11 +28,12 @@ body{
 #header_area .col-sm-3 .logo img{
     width: 40%;
     height: auto;
+    padding: 5px 0;
 }
 
 /* Header Area - Menu */
 .menu_area{
-    margin: 12px 0;
+    margin: 20px 0;
 }
 .menu_area ul{
     list-style: none;
@@ -76,7 +79,7 @@ body{
 }
 
 .login{
-    margin: 12px 0;
+    margin: 20px 0;
 }
 .login ul{
     list-style: none;
