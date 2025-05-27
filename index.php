@@ -12,7 +12,7 @@
         <div class="row">
             <div class="col-sm-3">
                 <div class="logo">
-                    <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(). '/img/logo.png'  ?>" alt="">Hello</a>
+                    <a href="<?php echo home_url(); ?>"><img src="<?php echo get_theme_mod('resturent_logo_setting');  ?>" alt=""></a>
                 </div>
             </div>
             <div class="col-sm-6">

@@ -90,7 +90,7 @@ body{
     text-decoration: none;
     padding:10px 20px;
     color: #fff;
-    font-weight: bold;
+    font-weight: 500;
     background-color: blue;
     border: 1px solid blue;
     border-radius: 10px;
@@ -98,4 +98,13 @@ body{
 .login ul li a:hover{
     color: blue;
     background-color: #fff;
+}
+
+/* 404 Page */
+#not_found {
+    text-align: center;
+}
+.not_found_page h1{
+    font-size: 40px;
+    text-align: center;
 }
