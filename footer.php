@@ -1,13 +1,15 @@
 
 <section id="bg_image">
     <div class="main_bg_image">
-        
+
     </div>
 </section>
 
 
 
-
+<section id="footer_section">
+    
+</section>
 
 
 
